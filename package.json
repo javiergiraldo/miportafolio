@@ -1,0 +1,27 @@
+{
+  "name": "mi_portafolio",
+  "autor": "Javier Giraldo",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de portafolio personal construido con el framework Django (Python).",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./static_src/css/input.css -o ./static/css/estilos.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiergiraldo/miportafolio.git"
+  },
+  "keywords": [],
+  "author": "Javier Giraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiergiraldo/miportafolio/issues"
+  },
+  "homepage": "https://github.com/javiergiraldo/miportafolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
